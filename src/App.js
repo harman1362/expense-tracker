@@ -16,7 +16,6 @@ function App() {
   const addNewExpense = (e)=>{
     e.preventDefault();
     const url = process.env.REACT_APP_API_URL+"addExpense";
-    console.log(url);
     fetch(url,{
       method:"POST",
       headers:{'Content-type':'application/json'},
