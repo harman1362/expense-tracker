@@ -1,0 +1,8 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.form-style{
+  width: 60%;
+  margin: 0 auto;
+}
